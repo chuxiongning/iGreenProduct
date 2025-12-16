@@ -9,9 +9,7 @@ import uuid
 
 from app.core.database import get_db
 from app.models.user import User
-from app.models.sla_config import SLAConfig
-from app.models.problem_type import ProblemType
-from app.models.site_level_config import SiteLevelConfig
+from app.models.config import SLAConfig, ProblemType, SiteLevelConfig
 from app.models.ticket import Priority
 from app.schemas.sla_config import SLAConfigCreate, SLAConfigResponse
 from app.schemas.problem_type import ProblemTypeCreate, ProblemTypeUpdate, ProblemTypeResponse
